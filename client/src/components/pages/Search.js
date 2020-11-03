@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Form from "../components/Form";
-import Wrapper from "../components/Wrapper";
-import API from "../utils/API";
+import Main from "../Main/index";
+import Wrapper from "../Wrapper/index";
+import API from "../../../utils/API";
 
 
 
@@ -30,7 +30,7 @@ class Search extends React.Component {
         });
     };
 
-    handleFormSubmit = event => {
+    handleMainSubmit = event => {
         event.preventDefault();
         this.searchBook(this.state.search);
     };
@@ -39,7 +39,7 @@ class Search extends React.Component {
     render() {
         return (
             <Wrapper>
-                <Form />
+                <Main />
                
             </Wrapper>
         )
