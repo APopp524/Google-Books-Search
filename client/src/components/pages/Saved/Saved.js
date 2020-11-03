@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Row, Container } from "../Grid/index";
-import { BookList, BookListItem } from "../List/bookList";
-import API from "../../utils/API";
+import { Row, Container } from "../../Grid/index";
+import { BookList, BookListItem } from "../../List/bookList";
+import API from "../../../utils/API";
+import './style.css';
 
 class Saved extends Component {
 
@@ -36,7 +37,7 @@ class Saved extends Component {
     return (
       <Container>
         <Row>
-          <div className="col rounded text-center bg-dark text-white mt-4 mb-4 p-4">
+          <div className="col rounded text-center text-white">
             <h1>Saved Books</h1>
           </div>
         </Row>
