@@ -1,33 +1,25 @@
+import React from "react";
 import './App.css';
-import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavBar from "./components/Navbar/index";
-import Header from "./components/Header";
-import Wrapper from "./components/Wrapper";
-import NoMatch from "./components/pages/NoMatch";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navigation from "./components/Navbar/index";
 import Search from "./components/pages/Search";
 import Saved from "./components/pages/Saved";
-import Main from "./components/Main/index";
+import NoMatch from "./components/pages/NoMatch";
 
-class App extends Component {
-
-  render() {
-    return (
-      <Router>
-        <div>
-          <NavBar />
-          <Header />
-          <Wrapper>
-            <Route exact path="/" Component={Search} />
-            <Route exact path="/search" Component={Search} />
-            <Route exact path="/saved" Component={Saved} />
-            <Route exact path="/NoMatch" Component={NoMatch} />
-          </Wrapper>
-        </div>
-      </Router>
-    )
-  };
-};
+function App() {
+  return (
+    <Router>
+      <div>
+        <Navigation />
+        <Switch>
+          <Route exact path="/" component={Search} />
+          <Route exact path="/saved" component={Saved} />
+          <Route component={NoMatch} />
+        </Switch>
+      </div>
+    </Router>
+  );
+}
 
 export default App;
 
