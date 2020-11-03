@@ -11,7 +11,7 @@ Express.js | Axios | React | JavaScript | JQuery | Bootstrap | CSS | HTML | Mong
 
 ## Live Demo
 
-The demo of the application can be found [here](floating-shore-40075.herokuapp.com/).
+The demo of the application can be found [here](https://floating-shore-40075.herokuapp.com/).
 
 ## Directions
 
