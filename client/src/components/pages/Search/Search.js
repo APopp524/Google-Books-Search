@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Row, Container } from "../Grid/index";
-import Button from "../Button/button";
-import { BookList, BookListItem } from "../List/bookList";
-import API from "../../utils/API";
+import { Row, Container } from "../../Grid/index";
+import Button from "../../Button/button";
+import { BookList, BookListItem } from "../../List/bookList";
+import API from "../../../utils/API";
+import './style.css';
 
 class Search extends Component {
 
@@ -79,7 +80,7 @@ class Search extends Component {
     return (
       <Container className="container">
         <Row>
-          <div className="col rounded text-center bg-info mt-4 p-4" className="container">
+          <div className="col rounded text-center bg-info mt-4 p-4" className="container" id="Header">
             <h1 className="library">Google Books Library</h1>
             <h4 className="library">Find your next great read!</h4>
           </div>

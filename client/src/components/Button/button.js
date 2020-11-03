@@ -1,9 +1,10 @@
 import React from "react";
+import './style.css';
 
 
 function Button({ onClick, children }) {
     return (
-        <button onClick={onClick} className="btn btn-warning" className="button">
+        <button onClick={onClick}  className="myButton">
             {children}
         </button>
     );

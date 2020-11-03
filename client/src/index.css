@@ -1,3 +1,8 @@
+html {
+background-color: #99A1A6;
+font-family: 'Noto Sans JP', sans-serif;
+}
+
 
 body {
     margin: 0;
@@ -6,6 +11,8 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #99A1A6;
+    font-family: 'Noto Sans JP', sans-serif;
   }
   
   code {

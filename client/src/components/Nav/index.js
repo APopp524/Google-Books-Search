@@ -1,8 +1,9 @@
 import React from "react";
+import './style.css';
 
-function Navigation() {
+function Nav() {
   return (
-    <nav className="navbar navbar-expand navbar-dark bg-dark">
+    <nav className="navbar navbar-expand">
       <a className="navbar-brand" href="/">Google Books Library</a>
 
       <ul className="navbar-nav mr-auto">
@@ -18,4 +19,4 @@ function Navigation() {
   )
 };
 
-export default Navigation;
+export default Nav;

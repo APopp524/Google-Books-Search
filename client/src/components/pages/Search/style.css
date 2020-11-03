@@ -1,0 +1,22 @@
+.border {
+    top: auto;
+    margin-top: 40px;
+}
+
+.form-control {
+    margin-bottom: 40px;
+}
+
+h4 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#Header {
+    text-align: center;
+    background-color: #654F6F;
+    color: #fff;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
