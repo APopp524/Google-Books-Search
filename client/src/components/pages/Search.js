@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Main from "../Main/index";
 import Wrapper from "../Wrapper/index";
-import API from "../../../utils/API";
+import API from "../../utils/API";
 
 
 
